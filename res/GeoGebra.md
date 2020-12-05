@@ -29,6 +29,14 @@ v = 2sin(t) # 2sin(th)
 
  - [フーリエ級数(めりくり)](https://www.geogebra.org/m/ccbru6zw)
 ```plain.txt
+t=2π (青) 増分 0.000001 速度 3 増加のみ 繰り返し
+d={{...},{...},{...},{...}} # (緑) 固定値 転置 63個
+th = Sequence(-(i-3) t, i, 3, 65) # (非表示) d の個数と合わせる
+u = Sum(d(1)cos(th) + d(2)sin(th)) # (非表示)
+v = -Sum(d(3)cos(th) + d(4)sin(th)) # (非表示)
+作図 点 P (u, v) # (薄緑 -> 上級 HSV H=c S=1 V=1) 残像 on
+範囲 x: -400 <-> 0 y: -200 <-> 310 (適当)
+c = if(t < 1.2, 0.78, if(t > 4, 0, 1.77)) / (2π)
 ```
 
  - [フーリエ級数とリサージュ図形(X-Y)](https://www.geogebra.org/m/q5ezvbdn)
