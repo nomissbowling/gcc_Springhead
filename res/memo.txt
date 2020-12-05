@@ -1,1 +1,6 @@
-
+obj: memo
+data:
+  hoge: Hoge
+  memo: ${{secrets.MY_SECRET_NAME}}
+  foo: bar
+end: None
