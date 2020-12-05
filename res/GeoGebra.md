@@ -73,13 +73,14 @@ v = Sum(d(3)cos(th) + d(4)sin(th)) # (非表示)
  - [軌跡(ぐるぐる定規)Spirograph](https://www.geogebra.org/m/ueesvwyu)
  - [軌跡(ぐるぐる定規)Spirograph(全機能版)](https://www.geogebra.org/m/wevkfgev)
 ```plain.txt
- Qx = (r-q)cos(t), Qy = (r-q)sin(t)
- Px = Qx + (q-p)cos((1-r/q)t), Py = Qy + (q-p)sin((1-r/q)t)
+ # Qx = (r-q)cos(t), Qy = (r-q)sin(t)
+ # Px = Qx + (q-p)cos((1-r/q)t), Py = Qy + (q-p)sin((1-r/q)t)
  p, q, r = 2, 3, 5
  p, q, r = 7, 11, 15
  p, q, r = 7, 11, 23
  p, q, r = 5, 17, 23
- Curve((r-q)cos(t) + (q-p)cos((1-r/q)t), (r-q)sin(t) + (q-p)sin((1-r/q)t), t, 0, 60π)
+ th=60π (θ slider 最小 0 最大 60π)
+ Curve((r-q)cos(t) + (q-p)cos((1-r/q)t), (r-q)sin(t) + (q-p)sin((1-r/q)t), t, 0, th)
  Curve((r-q)cos(th) + q cos(t), (r-q)sin(th) + q sin(t), t, 0, 2π)
  Curve(r cos(t), r sin(t), t, 0, 2π)
  Line(((r-q)cos(th), (r-q)sin(th)), ((r-q)cos(th) + (q-p)cos((1-r/q)th), (r-q)sin(th) + (q-p)sin((1-r/q)th)))
