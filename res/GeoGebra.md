@@ -11,7 +11,26 @@ GeoGebra
 
 手順
  - [色相環(HSV)Color](https://www.geogebra.org/m/hysdcz29)
+```plain.txt
+作図 画像 img = アップロード
+自由 A = (-4, 2) # (非表示) 画像 左下
+自由 B = (-1, 2) # (非表示) 画像 右下
+t=2π (上級 HSV H=t/(2π) S=1 V=1)
+# th = Sequence(i, i, 0, t, 0.01) # (非表示)
+u = -2cos(t) # -2cos(th)
+v = 2sin(t) # 2sin(th)
+作図 点 C = (u, v) # H=th/(2π)だと失敗？ (上級 HSV H=t/(2π) S=1 V=1) 残像 on 点サイズ 8 点スタイル 縁無 サイズ 60
+    (点毎の色が変えられない全部の点の色が変わる？ th = Sequence(i, i, 0, t, 0.01) が原因 解決)
+作図 ボタン btn_redraw # cindyscript {t=0;} 背景 gray (濃) (上級 HSV H=t/(2π) S=1 V=1) 前景色のみ可変？
+作図 画像 out = アップロード
+自由 D = (1, 2) # (非表示) 画像 左下
+自由 E = (4, 2) # (非表示) 画像 右下
+```
+
  - [フーリエ級数(めりくり)](https://www.geogebra.org/m/ccbru6zw)
+```plain.txt
+```
+
  - [フーリエ級数とリサージュ図形(X-Y)](https://www.geogebra.org/m/q5ezvbdn)
 ```plain.txt
 t=2π (薄橙) 増分 0.01 速度 1.2 振動 繰り返し
@@ -33,5 +52,13 @@ H = Segment((s, v), (u, v)) # (薄赤) 細線2
 ```
 
  - [リサージュ図形(あけおめ)](https://www.geogebra.org/m/wdj2tbap)
+```plain.txt
+```
+
  - [軌跡(ぐるぐる定規)Spirograph](https://www.geogebra.org/m/ueesvwyu)
+```plain.txt
+```
+
  - [軌跡(ぐるぐる定規)Spirograph(全機能版)](https://www.geogebra.org/m/wevkfgev)
+```plain.txt
+```
