@@ -8,6 +8,8 @@ GeoGebra
  - [リサージュ図形(あけおめ)](https://www.geogebra.org/m/wdj2tbap)
  - [軌跡(ぐるぐる定規)Spirograph](https://www.geogebra.org/m/ueesvwyu)
  - [軌跡(ぐるぐる定規)Spirograph(全機能版)](https://www.geogebra.org/m/wevkfgev)
+ - [接弦定理の直観的理解](https://www.geogebra.org/m/dpshmmu4)
+ - [フーリエ級数とリサージュ図形(3D版)](https://www.geogebra.org/m/fznjbmcu)
 
 手順
  - [色相環(HSV)Color](https://www.geogebra.org/m/hysdcz29)
