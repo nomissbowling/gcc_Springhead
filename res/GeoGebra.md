@@ -9,6 +9,7 @@ GeoGebra
  - [軌跡(ぐるぐる定規)Spirograph](https://www.geogebra.org/m/ueesvwyu)
  - [軌跡(ぐるぐる定規)Spirograph(全機能版)](https://www.geogebra.org/m/wevkfgev)
  - [Infinite Tube](https://www.geogebra.org/m/acjx4ten)
+ - [Golden Ratio](https://www.geogebra.org/m/mrfk9vaf)
  - [接弦定理の直観的理解](https://www.geogebra.org/m/dpshmmu4)
  - [フーリエ級数とリサージュ図形(3D版)](https://www.geogebra.org/m/fznjbmcu)
 
