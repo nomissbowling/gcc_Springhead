@@ -12,6 +12,7 @@ GeoGebra
  - [Golden Ratio (scripting)](https://www.geogebra.org/m/mrfk9vaf)
  - [C60 Fullerene (scripting)](https://www.geogebra.org/m/rfbr2awx)
  - [接弦定理の直観的理解](https://www.geogebra.org/m/dpshmmu4)
+ - [3D Midpoint Connector Theorem 中点連結定理](https://www.geogebra.org/m/h65xdmwb)
  - [フーリエ級数とリサージュ図形(3D版)](https://www.geogebra.org/m/fznjbmcu)
 
 手順
